@@ -1,0 +1,19 @@
+header {
+    background-color: lightskyblue;
+    text-align: center;
+    color: navy;
+}
+
+hr {
+    border-color: navy;
+}
+
+section {
+    border: 5px solid cadetblue;
+    background-color: skyblue;
+}
+
+h2 {
+    color: navy;
+    background-color: cadetblue;
+}
