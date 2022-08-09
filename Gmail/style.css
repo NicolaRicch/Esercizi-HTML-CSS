@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  }
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+#logo-text {
+    font-size: 25px;
+    color: white;
+}
+
+
+
+#notifica{
+    color: red;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.row-read{
+    background-color: lightgray;
+}
+
+.row-unread{
+    background-color: white;
+}
+
+.row-left{
+    display: inline-block;
+    width: 30%;
+}
+
+.row-right{
+    display: inline-block;
+    width: 68%;
+}
+
+.star {
+    color: orange;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+#nomefooter {
+    font-size: 25px;
+}
