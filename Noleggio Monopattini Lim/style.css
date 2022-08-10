@@ -1,0 +1,67 @@
+body {
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contenitore {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#logo {
+    width: 250px;
+}
+
+#textlogo {
+    color: #00DD00;
+}
+
+nav{
+    text-align: center;
+    background-color: #00DD00;
+    padding: 1%;
+}
+
+.subject {
+    font-size: 25px;
+    color: white;
+}
+
+.para {
+    color: white;
+}
+
+#carica {
+    background-color: orange;
+    border: 5px solid orange;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#carica2 {
+    background-color: green;
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 550px;
+    height: 25px;
+}
+
+#carica3 {
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+}
