@@ -1,0 +1,80 @@
+/*
+.contenitore{
+   background-color: red;
+   width: 1000px;
+   height: 500px; 
+}
+
+#quadrato_blu {
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+}
+
+#quadrato_verde {
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+*/
+
+/*
+.contenitore {
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.quadrato {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#quadrato2 {
+    position:absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#quadrato3 {
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+}
+*/
+
+.contenitore-verde {
+    background-color: green;
+    width: 100%;
+    height: 800px;
+}
+
+.contenitore-blu {
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+
+.quadrato-rosso {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+}
+
+#quadrato2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#quadrato3 {
+    position: relative;
+    left: 30px;
+}
