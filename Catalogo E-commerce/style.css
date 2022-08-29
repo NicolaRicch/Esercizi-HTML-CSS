@@ -1,0 +1,72 @@
+body {
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.item {
+    width: 300px;
+    height: 372px;
+    position: relative;
+    display: inline-block;
+}
+
+.item > img {
+    width: 100%;
+}
+
+#special-item {
+    background-image: url(https://media.wired.com/photos/59268d69cfe0d93c474309e9/master/w_2560%2Cc_limit/headphones-edit-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#special-item2 {
+    background-image: url(https://i.pinimg.com/474x/fc/ce/19/fcce19a9d1dc8641b74bb926448ec81a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#special-item3 {
+    background-image: url(https://img.freepik.com/premium-photo/keyboard-computer-mouse-closeup-light-gray-background_237099-331.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+}
+
+.item > .discount {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    right: 0;
+    background-color: red;
+    text-align: center;
+}
+
+.hearts {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    color: red;
+    display: none;
+}
+
+.item:hover .hearts {
+    display: block;
+}
