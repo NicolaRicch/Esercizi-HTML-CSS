@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+  .container {
+    padding: 50px;
+}
+
+.add a {
+    font-size: 40px;
+    color: #3481d0;
+    text-decoration: none;
+}
+
+.title {
+    padding-bottom: 20px;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title a {
+    float: right;
+    font-size: 20px;
+    color: #3481d0;
+    text-decoration: none;
+}
+
+.album {
+    margin: 10px;
+    float: left;
+    width: calc(100% / 6 - 20px);
+}
+
+.album-image img{
+    width: 100%;
+}
+
+.album-title, .album-number {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.album-number {
+    color: gray;
+}
