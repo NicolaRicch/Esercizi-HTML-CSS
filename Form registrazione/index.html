@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form">
+    <h1>Modulo di registrazione Corso di Formazione</h1>
+  <p>Compila questo modulo per esprimere il tuo interesse a partecipare al prossimo corso di formazione.</p>
+  <form>
+<!-- Contact Details -->
+    <fieldset class="first-section">
+      <legend>Dettagli del contatto</legend>
+      <label for="name">Nome</label>
+      <input autofocus type="text" id="name" name="name" autofocus placeholder="Mario Rossi" autocomplete="on" required> <br><br>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="mario.rossi1@hotmail.it"> <br><br>
+      <label for="tel">Telefono</label>
+      <input type="tel" id="tel" placeholder="+39 3281258184"> <br><br>
+    </fieldset>
+    <!-- Personal Information -->
+    <fieldset class="second-section">
+      <legend>Informazioni personali</legend>
+      <label for="dob">Data compleanno</label>
+      <input type="date" id="dob"> <br><br>
+        <label for="gender">Sesso</label>
+        <select id="gender" name="gender">
+          <option value="placeholder-1">Uomo</option>
+          <option value="placeholder-2">Donna</option>
+          <option value="placeholder-3">Altro</option>
+        </select><br><br>
+     <div class="proficiency">
+        <label for="profeciency">Competenze</label>
+      <input type="range" value="4" max="10" id="profeciency" name="profeciency">
+     </div>
+    </fieldset>
+     <!-- Preferred Language -->
+     <div class="terms">
+        <input type="checkbox" id="scales" name="scales" class="checkbox">
+      <label for="scales">Ho letto e accettato i termini e condizioni</label>
+     </div>
+    <button>Invia</button>
+  </form>
+  </div>
+</body>
+</html>
